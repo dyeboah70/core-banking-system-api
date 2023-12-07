@@ -1,0 +1,9 @@
+celery:
+  default_retry_delay: 30
+  max_retries: 3
+  interval_start: 0
+  interval_step: 0.2
+  interval_max: 0.2
+  routing_key: emergency_alert
+  exchange: emergency_alert
+  queue: emergency_alert

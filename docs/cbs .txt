@@ -1,0 +1,22 @@
+# CORE BANKING SYSTEM
+
+This document describes the **CORE BANKING SYSTEM** in detail.
+
+## Customer Creation
+### Method: POST
+### Path: /customer/create-customer
+### Query Parameters:
+| Name | Type | Description | Default | Required |
+| --- | --- | --- | --- | --- |
+| email | string | Email of the customer | | Required |
+| mobile_number | string | Phone of the customer | | Required |
+| first_name | string | First name of the customer | | Required |
+| last_name | string | Last name of the customer | | Required |
+| sex | string | Gender of the  customer | |Required |
+| occupation | string | Customer occupation | | Required
+
+
+### Response:
+| Name | Type | Description |
+| --- | --- | --- |
+| customer_id | string | Customer ID |
